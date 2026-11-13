@@ -1,0 +1,12 @@
+{
+  "plugin.unifi-os.name": "UniFi OS",
+  "plugin.unifi-os.access.username": "本地管理员用户名",
+  "plugin.unifi-os.access.password": "本地管理员密码",
+  "plugin.unifi-os.deploy.serverUrl": "控制台管理地址",
+  "plugin.unifi-os.deploy.serverUrl.placeholder": "https://unifi.example.com:11443",
+  "plugin.unifi-os.deploy.serverUrl.tooltip": "填写 HTTPS 管理地址。UniFi OS Server 通常使用 11443 端口，UniFi 硬件控制台通常使用 443 端口。",
+  "plugin.unifi-os.deploy.allowInsecureConnections": "跳过管理 API 的 TLS 验证",
+  "plugin.unifi-os.deploy.allowInsecureConnections.tooltip": "在受信任的网络中，连接使用自签名证书的控制台时可开启。",
+  "plugin.unifi-os.deploy.cleanupOldCertificates": "清理旧证书",
+  "plugin.unifi-os.deploy.cleanupOldCertificates.tooltip": "确认新证书已生效后，删除此插件为同一证书主题、SAN 和密钥类型创建、且生效日期更早的未启用证书。"
+}

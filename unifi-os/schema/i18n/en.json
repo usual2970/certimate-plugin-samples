@@ -1,0 +1,12 @@
+{
+  "plugin.unifi-os.name": "UniFi OS",
+  "plugin.unifi-os.access.username": "Local administrator username",
+  "plugin.unifi-os.access.password": "Local administrator password",
+  "plugin.unifi-os.deploy.serverUrl": "Console management URL",
+  "plugin.unifi-os.deploy.serverUrl.placeholder": "https://unifi.example.com:11443",
+  "plugin.unifi-os.deploy.serverUrl.tooltip": "Use the HTTPS management address. UniFi OS Server typically uses port 11443. UniFi consoles typically use port 443.",
+  "plugin.unifi-os.deploy.allowInsecureConnections": "Skip management API TLS verification",
+  "plugin.unifi-os.deploy.allowInsecureConnections.tooltip": "Enable for a console with a self-signed certificate on a trusted network.",
+  "plugin.unifi-os.deploy.cleanupOldCertificates": "Remove older certificates",
+  "plugin.unifi-os.deploy.cleanupOldCertificates.tooltip": "After verification, remove inactive certificates created by this plugin for the same subject, SANs, and key type with an earlier start date."
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "form/v1",
+  "provider": "unifi-os",
+  "category": "access",
+  "schema": {
+    "columns": [
+      {
+        "name": "username",
+        "valueType": "text",
+        "labelKey": "plugin.unifi-os.access.username",
+        "required": true
+      },
+      {
+        "name": "password",
+        "valueType": "secret",
+        "labelKey": "plugin.unifi-os.access.password",
+        "required": true,
+        "secret": true
+      }
+    ]
+  }
+}

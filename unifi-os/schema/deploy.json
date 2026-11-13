@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "form/v1",
+  "provider": "unifi-os",
+  "category": "deploy",
+  "schema": {
+    "columns": [
+      {
+        "name": "serverUrl",
+        "valueType": "text",
+        "inputType": "url",
+        "labelKey": "plugin.unifi-os.deploy.serverUrl",
+        "placeholderKey": "plugin.unifi-os.deploy.serverUrl.placeholder",
+        "tooltipKey": "plugin.unifi-os.deploy.serverUrl.tooltip",
+        "required": true
+      },
+      {
+        "name": "allowInsecureConnections",
+        "valueType": "switch",
+        "labelKey": "plugin.unifi-os.deploy.allowInsecureConnections",
+        "tooltipKey": "plugin.unifi-os.deploy.allowInsecureConnections.tooltip",
+        "default": false
+      },
+      {
+        "name": "cleanupOldCertificates",
+        "valueType": "switch",
+        "labelKey": "plugin.unifi-os.deploy.cleanupOldCertificates",
+        "tooltipKey": "plugin.unifi-os.deploy.cleanupOldCertificates.tooltip",
+        "default": false
+      }
+    ]
+  }
+}

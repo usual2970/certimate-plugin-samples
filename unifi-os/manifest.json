@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0",
+  "provider_type": "unifi-os",
+  "access_provider_type": "unifi-os",
+  "capability": "deploy",
+  "display_name_key": "plugin.unifi-os.name",
+  "deploy_category": "other",
+  "protocol_version": 3,
+  "binary": "unifi-os.exe",
+  "usages": ["hosting"],
+  "description": "Deploys and activates the HTTPS certificate on a UniFi OS console."
+}
