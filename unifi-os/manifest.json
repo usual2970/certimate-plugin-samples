@@ -1,12 +1,32 @@
 {
-  "version": "0.1.0",
-  "provider_type": "unifi-os",
   "access_provider_type": "unifi-os",
-  "capability": "deploy",
-  "display_name_key": "plugin.unifi-os.name",
-  "deploy_category": "other",
-  "protocol_version": 3,
   "binary": "unifi-os.exe",
-  "usages": ["hosting"],
-  "description": "Deploys and activates the HTTPS certificate on a UniFi OS console."
+  "capability": "deploy",
+  "deploy_category": "other",
+  "description": "Deploys and activates the HTTPS certificate on a UniFi OS console.",
+  "display_name_key": "plugin.unifi-os.name",
+  "protocol_version": 3,
+  "provider_type": "unifi-os",
+  "release": {
+    "assets": {
+      "darwin/amd64": "unifi-os_darwin_amd64.zip",
+      "darwin/arm64": "unifi-os_darwin_arm64.zip",
+      "linux/amd64": "unifi-os_linux_amd64.zip",
+      "linux/arm64": "unifi-os_linux_arm64.zip",
+      "windows/amd64": "unifi-os_windows_amd64.zip"
+    },
+    "checksums": {
+      "darwin/amd64": "892a58841731f607323ba2e4d2c2545c50b05b3aaff1941b42073e1d7307d115",
+      "darwin/arm64": "f0d89528ce12a875dc1024a04f6879b4cf08aacbdc7c0a928de022014425104e",
+      "linux/amd64": "032f846781834219ce87f71cbba32ad6ef3a212b51e1312b0fbb7374a22658c2",
+      "linux/arm64": "dcb17413fcbd6434e15531c9e0f5b6f092e596ccca7009d1e9444ba08a9b123f",
+      "windows/amd64": "bd22b220fb0468a30aca33f176d3ea023e2913d1f04ee9249306640ba581a296"
+    },
+    "repo": "usual2970/certimate-plugin-samples",
+    "tag": "unifi-os/v0.1.0"
+  },
+  "usages": [
+    "hosting"
+  ],
+  "version": "0.1.0"
 }
